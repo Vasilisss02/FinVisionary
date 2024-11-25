@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore tips and strategies to secure your financial future and learn innovative ways to make money with FinVisionary.">
+    <title>FinVisionary</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to FinVisionary</h1>
+        <p>Your guide to financial freedom, one step at a time.</p>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#examples">Make Money</a></li>
+                <li><a href="#signup">Sign Up</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- HOME Section -->
+        <section id="home">
+            <h2>Welcome to Your Financial Journey</h2>
+            <p>At FinVisionary, we are passionate about empowering individuals with the tools and knowledge needed to build a secure financial future.</p>
+            <ul>
+                <li><strong>Budgeting:</strong> Learn effective budgeting techniques to achieve financial stability.</li>
+                <li><strong>Savings Strategies:</strong> Build a robust emergency fund and save for big goals.</li>
+                <li><strong>Investing:</strong> Explore investment options to grow your wealth.</li>
+                <li><strong>Creative Income Streams:</strong> Discover innovative ways to earn extra money.</li>
+            </ul>
+            <p><a href="#articles">Start Exploring Our Articles</a> or <a href="#examples">Discover Money-Making Ideas</a>.</p>
+        </section>
+
+        <!-- ARTICLES Section -->
+        <section id="articles">
+            <h2>Featured Articles</h2>
+            <article>
+                <h3>Why Budgeting Is the Key to Financial Success</h3>
+                <p>Learn the step-by-step process to create a budget that aligns with your goals.</p>
+                <a href="#">Read Full Article</a>
+            </article>
+            <article>
+                <h3>Top Investment Trends of 2024</h3>
+                <p>Explore the hottest trends to diversify and grow your portfolio.</p>
+                <a href="#">Read Full Article</a>
+            </article>
+            <article>
+                <h3>Mastering Side Hustles in the Digital Age</h3>
+                <p>Learn how to turn your skills and passions into a profitable side hustle.</p>
+                <a href="#">Read Full Article</a>
+            </article>
+        </section>
+
+        <!-- MAKE MONEY Section -->
+        <section id="examples">
+            <h2>Make Money Easier with FinVisionary</h2>
+            <p>Practical ways to boost your income:</p>
+            <div class="money-ideas">
+                <div class="idea">
+                    <h3>Freelancing</h3>
+                    <p>Offer your skills on platforms like Upwork or Fiverr.</p>
+                </div>
+                <div class="idea">
+                    <h3>Passive Income</h3>
+                    <p>Invest in dividend stocks or create an eBook.</p>
+                </div>
+                <div class="idea">
+                    <h3>Online Stores</h3>
+                    <p>Sell handmade crafts or dropship products.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SIGN-UP Section -->
+        <section id="signup">
+            <h2>Sign Up for Exclusive Financial Insights</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 FinVisionary. All Rights Reserved.</p>
+        <p>Follow us: <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
